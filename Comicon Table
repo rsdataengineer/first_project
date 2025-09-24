@@ -1,0 +1,55 @@
+create table avengers (
+serial_no int NOT NULL AUTO_INCREMENT,
+real_name varchar (100) NOT NULL,
+hero_name varchar (100) NOT NULL,
+universe varchar(100) DEFAULT 'Marvels',
+PRIMARY KEY (serial_no)
+);
+
+insert into avengers (hero_name, real_name)
+values
+('Tony Stark','Iron Man'),
+('Captain America','Steve Rogers'),
+('Thor','Thor Odinson'),
+('Hulk','Bruce Banner'),
+('Hawkeye','Clint Barton'),
+('Spiderman','Peter Parker'),
+('Ant-man','Scott Lang'),
+('Doctor Strange','Stephen Strange'),
+('Black Panther','TChalla'),
+('Captain Marvel','Carol Danvers'),
+('Star-Lord','Peter Quill');
+
+
+create table justice_league (
+serial_no int NOT NULL AUTO_INCREMENT,
+real_name varchar (100) NOT NULL,
+hero_name varchar (100) NOT NULL,
+universe varchar(100) DEFAULT 'DC',
+PRIMARY KEY (serial_no)
+);
+
+insert into justice_league (hero_name, real_name)
+values
+('Superman','Clark Kent'),
+('Batman','Bruce Wayne'),
+('Wonder Woman','Diana Prince'),
+('Aquaman','Arthur Curry'),
+('Flash','Barry Allen'),
+('Cyborg','Victor Stone'),
+('Green Lantern','Hal Jordan'),
+('Deadshot','Floyd Lawton'),
+('Bloodsport','Robert DuBois'),
+('Peacemaker','Christopher Smith'),
+('Blue Beetle','Jaime Reyes');
+
+
+
+
+
+
+
+
+
+
+
